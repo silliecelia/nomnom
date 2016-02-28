@@ -1,16 +1,11 @@
-.logo {
-  font-family: Bryant-Bold;
-  font-size: 48px;
-  margin: 20px 0px 0px 30px;
-}
-
-.logo a {
-  color: #000;
+header {
+  clear: both;
 }
 
 nav {
   float: right;
   margin-right: 20px;
+  display: inline;
 }
 
 li {
@@ -48,8 +43,20 @@ p {
              url(Bryant-bold.svg’) format(‘svg’);
 }
 
+.logo {
+  font-family: Bryant-Bold;
+  font-size: 48px;
+  margin: 20px 0px 0px 30px;
+  clear: both;
+}
+
+.logo a {
+  color: #000;
+}
+
 .top {
-  background: url("images/placement.png"); center center no-repeat;
+  background: url("../images/placement.png"); center center no-repeat;
+  position: relative;
   width: 100%;
   height: 700px;
   background-size: cover;
@@ -60,12 +67,22 @@ p {
 
 .party-text {
   text-align: center;
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;  
 }
 
 .party-text p {
   font-size: 70px;
   font-family: Sanchez;
   font-weight: 400;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 70px;
+  padding-bottom: 10px;
 }
 
 .speech-bubble {
