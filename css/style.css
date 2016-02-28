@@ -70,3 +70,39 @@ p {
   text-align: center;
   margin-top: 20px;
 }
+
+.emojis {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.happy {
+  display: inline-block;
+  clear: both;
+  margin-right: 20px;
+}
+
+.silly {
+  display: inline-block;
+  clear: both;
+  margin-right: 20px;
+}
+
+.sad {
+  display: inline-block;
+  clear: both;
+  margin-right: 20px;
+}
+
+.angry {
+  display: inline-block;
+  clear: both;
+  margin-right: 20px;
+}
+
+.daring {
+  display: inline-block;
+  clear: both;
+  margin-right: 20px;
+}
