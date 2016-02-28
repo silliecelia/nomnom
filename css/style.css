@@ -147,21 +147,25 @@ p {
 }
 
 .structure {
-  margin:-200px auto;
-  background-color: #c6c6c6;
+
+}
+
+.featured {
+  margin: auto;
   width: 90%;
   height: 500px;
-  clear: both;
+  background: url("../images/placement.png"); center center no-repeat;
+  position: relative;
 }
 
 .recipe-text {
-  background-color: #fff;
-  width: 35%;
-  height: 50%;
   font-family: Sanchez;
   font-size: 50px;
   padding-left: 20px;
   padding-top: 20px;
+  background-color: #F8F8F8;
+  width: 35%;
+  height: 50%;
 }
 
 .recipe-text a {
@@ -172,15 +176,9 @@ p {
   padding-top: 20px;
 }
 
-.recipe-image {
-  width: 100px;
-  height: 10px;
-  background-color: #c6c6c6;
-}
-
 .more-recipes {
-  margin-top: 250px;
-  margin-bottom: 200px;
+  width: 90%;
+  margin: 20px auto;
 }
 
 .recipe-1 {
