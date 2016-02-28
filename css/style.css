@@ -48,6 +48,7 @@ p {
   font-size: 48px;
   margin: 20px 0px 0px 30px;
   clear: both;
+  float: left;
 }
 
 .logo a {
