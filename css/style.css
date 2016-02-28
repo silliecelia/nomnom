@@ -1,7 +1,7 @@
 .logo {
   font-family: Bryant-Bold;
   font-size: 48px;
-  margin: 20px 0px 0px 20px;
+  margin: 20px 0px 0px 30px;
 }
 
 .logo a {
@@ -17,7 +17,7 @@ li {
   display: inline-block;
   font-family: Bryant-Bold;
   font-size: 24px;
-  padding: 0px 20px 0px 0px;
+  padding: 0px 30px 0px 0px;
 }
 
 li a {
@@ -60,6 +60,10 @@ p {
 
 .party-text {
   text-align: center;
+}
+
+.party-text p {
+  font-size: 70px;
 }
 
 .speech-bubble {
