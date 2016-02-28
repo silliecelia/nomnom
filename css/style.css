@@ -32,10 +32,6 @@ p {
   color: #000;
 }
 
-body {
-  background-color: gray;
-}
-
 @font-face {
   font-family: ‘Bryant’;
   src: url(Bryant.eot’);
@@ -134,11 +130,9 @@ body {
   margin-right: 50px;
 }
 
-.grey-bg {
+.grey {
   background-color: #ececec;
   width: 100%;
-  height: 100%;
-  clear: both;
 }
 
 .title {
@@ -153,12 +147,11 @@ body {
 }
 
 .structure {
-  margin:0 auto;
+  margin:-200px auto;
   background-color: #c6c6c6;
   width: 90%;
   height: 500px;
   clear: both;
-  margin-top: -200px;
 }
 
 .recipe-text {
