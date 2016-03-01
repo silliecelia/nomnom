@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
 header {
   clear: both;
   position: relative;
@@ -131,8 +137,15 @@ p {
 }
 
 .grey {
-  background-color: #ececec;
-  width: 100%;
+  background-color: #E8E8E8;
+  margin-top: 150px;
+}
+
+.structure {
+  top: -120px;
+  position: relative;
+  height: 850px;
+  box-sizing: border-box;
 }
 
 .title {
@@ -152,19 +165,21 @@ p {
   height: 500px;
   background: url("../images/placement.png"); center center no-repeat;
   position: relative;
+  box-sizing: border-box;
 }
 
 .recipe-text {
   font-family: Sanchez;
   font-size: 50px;
-  padding-left: 20px;
-  padding-top: 20px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
   background-color: #F8F8F8;
-  width: 35%;
+  width: 29%;
   height: 50%;
 }
 
-.recipe-text a {
+.recipe-1 a {
   color: #dd1505;
 }
 
@@ -174,48 +189,62 @@ p {
 
 .more-recipes {
   width: 90%;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .recipe-1 {
   background-color: red;
-  width: 30%;
+  width: 32%;
   height: 200px;
-  margin-right: 60px;
+  margin-right: 25px;
   display: inline-block;
   float: left;
 }
 
-.recipe-1-text {
+.recipe-text {
   background-color: #fff;
-  width: 90%;
   padding-left: 20px;
+  padding-right: 20px;
   padding-top: 5px;
+  height: 150px;
 }
 
-.recipe-1-title {
-  margin-top: 30px;
-}
-
-.recipe-1-blurb {
+.recipe-title {
+  font-family: Sanchez;
+  color: #dd1505;
   margin-top: 10px;
+  width: 350px;
 }
 
-.test {
+.recipe-blurb {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.get-recipe {
+  padding-top: 30px;
+}
+
+.get-recipe a {
   text-decoration: none;
+  font-family: Bryant-bold;
+  font-size: 18px;
+  color: #dd1505;
 }
 
 .recipe-2 {
-  background-color: green;
-  width: 30%;
+  background-color: red;
+  width: 32%;
   height: 200px;
-  margin-right: 60px;
+  margin-right: 25px;
   display: inline-block;
+  float: left;
 }
 
 .recipe-3 {
-  background-color: blue;
-  width: 30%;
+  background-color: red;
+  width: 32%;
   height: 200px;
   display: inline-block;
+  float: right;
 }
