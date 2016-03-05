@@ -164,20 +164,21 @@ video {
 .title {
   padding-top: 50px;
   overflow: hidden;
+  text-align: center;
 }
 
 .title h1 {
   font-size: 55px;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 5%;
   color: #333;
   font-family: "Sanchez";
+  display: inline-block;
 }
 
 .happy-small {
   display: inline-block;
-  clear: both;
+  padding-top: 100px;
+  padding-left: 2%;
 }
 
 .featured {
