@@ -252,17 +252,17 @@ video {
 }
 
 .column-blurb {
-  margin-top: 10px;
-  font-size: 18px;
+  margin-top: 3%;
+  font-size: 1em;
 }
 
 .get-recipe {
-  padding-top: 30px;
+  padding-top: 6%;
 }
 
 .get-recipe a {
   text-decoration: none;
   font-family: Bryant-bold;
-  font-size: 18px;
+  font-size: 1em;
   color: #dd1505;
 }
