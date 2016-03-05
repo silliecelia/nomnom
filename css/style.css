@@ -226,7 +226,7 @@ video {
   float: left;
 }
 
-.column last {
+.column.last {
   background-color: #fff;
   width: 33.33%;
   height: 350px;
