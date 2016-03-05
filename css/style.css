@@ -25,7 +25,7 @@ li {
 }
 
 li a {
-  color: #000;
+  color: #333;
 }
 
 a {
@@ -61,12 +61,10 @@ p {
 }
 
 .logo a {
-  color: #000;
+  color: #333333;
 }
 
 #top {
-  background: url("../images/placement.png"); center center no-repeat;
-  position: relative;
   width: 100%;
   height: 700px;
   background-size: cover;
@@ -74,7 +72,27 @@ p {
   margin: 0 auto;
 }
 
-.party-text {
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+}
+
+.chevron {
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 680px;
+}
+
+.omnom-text {
   text-align: center;
   display: table;
   width: 100%;
@@ -85,7 +103,7 @@ p {
   z-index:10;
 }
 
-.party-text p {
+.omnom-text p {
   font-size: 70px;
   font-family: Sanchez;
   font-weight: 400;
@@ -97,7 +115,7 @@ p {
 
 .speech-bubble {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 120px;
 }
 
 .emojis {
@@ -108,31 +126,26 @@ p {
 
 .happy {
   display: inline-block;
-  clear: both;
   margin-right: 50px;
 }
 
 .silly {
   display: inline-block;
-  clear: both;
   margin-right: 50px;
 }
 
 .sad {
   display: inline-block;
-  clear: both;
   margin-right: 50px;
 }
 
 .angry {
   display: inline-block;
-  clear: both;
   margin-right: 50px;
 }
 
 .daring {
   display: inline-block;
-  clear: both;
   margin-right: 50px;
 }
 
@@ -153,70 +166,87 @@ p {
 }
 
 .title p {
-  font-size: 60px;
+  font-size: 55px;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  color: #333;
+  font-family: "Sanchez";
 }
 
 .featured {
   margin: auto;
   width: 90%;
-  height: 500px;
+  height: 50%;
   background: url("../images/placement.png"); center center no-repeat;
   position: relative;
   box-sizing: border-box;
 }
 
-.recipe-text {
+.recipe-title {
   font-family: Sanchez;
   font-size: 50px;
   padding-left: 30px;
   padding-top: 30px;
   padding-right: 30px;
   background-color: #F8F8F8;
-  width: 29%;
-  height: 50%;
-}
-
-.recipe-1 a {
   color: #dd1505;
+  width: 350px;
+  height: 60%;
+  margin-top: 10px;
 }
 
-.recipe-text p {
+.recipe-title p {
   padding-top: 20px;
+}
+
+.recipe-title a {
+  color: #dd1505;
 }
 
 .more-recipes {
   width: 90%;
   margin: 30px auto;
+  height: 50%;
 }
 
-.recipe-1 {
-  background-color: red;
-  width: 32%;
-  height: 200px;
-  margin-right: 25px;
+.column {
+  background-color: #fff;
+  width: 33.33%;
+  height: 350px;
+  margin-right: 15px;
   display: inline-block;
   float: left;
 }
 
-.recipe-text {
+.column.last {
   background-color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  height: 150px;
+  width: 33.33%;
+  height: 350px;
+  display: inline-block;
+  float: right;
 }
 
-.recipe-title {
-  font-family: Sanchez;
+.column-img {
+
+}
+
+.column-text {
+  padding-top: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.column-title {
+
+}
+
+.column-title a {
   color: #dd1505;
-  margin-top: 10px;
-  width: 350px;
+  font-family: "Sanchez";
 }
 
-.recipe-blurb {
+.column-blurb {
   margin-top: 10px;
   font-size: 18px;
 }
@@ -230,21 +260,4 @@ p {
   font-family: Bryant-bold;
   font-size: 18px;
   color: #dd1505;
-}
-
-.recipe-2 {
-  background-color: red;
-  width: 32%;
-  height: 200px;
-  margin-right: 25px;
-  display: inline-block;
-  float: left;
-}
-
-.recipe-3 {
-  background-color: red;
-  width: 32%;
-  height: 200px;
-  display: inline-block;
-  float: right;
 }
