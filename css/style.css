@@ -231,7 +231,7 @@ video {
   width: 33.33%;
   height: 350px;
   display: inline-block;
-  float: right;
+  float: left;
 }
 
 .column-img {
