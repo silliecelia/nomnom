@@ -221,7 +221,7 @@ video {
   background-color: #fff;
   width: 33.33%;
   height: 350px;
-  margin-right: 1.5%;
+  margin-right: 1.2%;
   display: inline-block;
   float: left;
 }
@@ -239,9 +239,7 @@ video {
 }
 
 .column-text {
-  padding-top: 0.5em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 2% 4% 0 4%;
 }
 
 .column-title {
