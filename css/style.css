@@ -175,7 +175,7 @@ video {
   display: inline-block;
 }
 
-.happy-small {
+.small-emoji {
   display: inline-block;
   padding-top: 50px;
   position: relative;
@@ -222,9 +222,9 @@ video {
 
 .column {
   background-color: #fff;
-  width: 32%;
+  width: 411px;
   height: 350px;
-  margin-right: 1.2%;
+  margin-right: 20px;
   display: inline-block;
   float: left;
   box-sizing: border-box;
@@ -232,7 +232,7 @@ video {
 
 .column.last {
   background-color: #fff;
-  width: 32%;
+  width: 411px;
   height: 350px;
   display: inline-block;
   float: left;
